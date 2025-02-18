@@ -820,9 +820,11 @@ h1, h2, h3, h4, h5,
 		position: relative;
 		.img{
 			display: block;
+			height: auto;
 			width: 100%;
 			position: relative;
 			z-index: 1;
+			background-size: cover
 		}
 	}
 	ul.about-info{
@@ -1986,3 +1988,14 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+.profile-img {
+	height: 500vh;
+  }
+
+@media (max-width: 400px) {
+	.profile-img {
+	  height: 50vh;
+	}
+  }
+  
